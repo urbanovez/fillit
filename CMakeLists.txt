@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(fillit)
+set(CMAKE_C_STANDARD 90)
+include_directories(libft)
+include_directories(.)
+add_executable(fillit main.c first_check.c fillit.h libft/ft_putchar_fd.c libft/ft_putstr_fd.c libft/ft_memalloc.c libft/ft_putendl.c libft/ft_strdup.c libft/ft_strlen.c libft/ft_strsub.c libft/ft_strsub_free.c libft/ft_strdel.c libft/ft_memdel.c libft/ft_bzero.c create.c part_of_Nina.c)
