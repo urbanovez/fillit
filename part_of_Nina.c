@@ -24,13 +24,14 @@ char **ft_map_create(int side)  //функция5, создает карту
     }
     return (map);
 }
+
 t_tetris   *ft_tet_create(int **base)
 {
     int i;
     t_tetris *new;
     t_tetris *start;
 
-    new = tetris_new(base[i][0], base[0][1], NULL);
+    new = tetris_new(base[0][0], base[0][1], NULL);
 	start = new;
     i = 1;
     while (base[i][0] != -1)
@@ -90,7 +91,6 @@ char **ft_fill(char **map, int x, int y, int num, char value, int side)  //за�
 int *ft_find(char **map, int side)
 {
 	int j;
-	int i;
 	int k;
 	int *cor;
 
@@ -101,15 +101,53 @@ int *ft_find(char **map, int side)
 		k = 0;
 		while(k <= j)
 		{
-			i = 0;
-			if (map[i + k][j - k] == '.')
-				return(cor);
+			if (map[k][j - k] == '.')
+			{
+				cor[0] = (k);
+				cor[1] = (j - k);
+				return (cor);
+			}
 			k++;
 		}
 		j++;
 	}
 	return (NULL);
 }
+
+int *ft_find_cord(char **map, int side,int m, int n)
+{
+	int j;
+	int k;
+	int *cor;
+
+	j = m + n;
+	m = m + 1;
+	cor = (int *)malloc(sizeof(int) * (2));
+	if (m == -1)//для первого запуска
+    {
+	    cor[0] = 0;
+	    cor[1] = 0;
+	    return(cor);
+    }
+	while (j < side)
+	{
+		k = m;//мы пропускаем предыдущую точку и идем дальше
+		m = 0;
+		while(k <= j)
+		{
+			if (map[k][j - k] == '.')
+			{
+				cor[1] = (k);
+				cor[0] = (j - k);
+				return (cor);
+			}
+			k++;
+		}
+		j++;
+	}
+	return (NULL);
+}
+
 int ft_square_root(int n)
 {
     int i;
@@ -136,10 +174,28 @@ int ft_body(int **base)
     	i++;
     cor = (int *)malloc(sizeof(int) * (2));
     start = ft_tet_create(base);//создаю структуру
+    ft_clear_base(base, i);
     side = ft_square_root(i * 4);
     map = ft_map_create(side);
-    cor = ft_find(map, side);//находим ближайшую свободную точку
-    map = ft_fill(map, cor[0], cor[1], 16,'A', side);
-    ft_print_map(map, side);
+    /*cor = ft_find(map, side);//находим ближайшую свободную точку
+	map = ft_fill(map, cor[0], cor[1], start->tet, start->bukva, side);
+    while(map == NULL)
+	{
+			map = ft_map_create(side);//временно, потому что пересоздавать карту говноидея
+			cor = ft_find_cord(map, side, cor[0], cor[1]);//находим новую свободную точку, если старая занята
+			if (cor == NULL)
+			{
+				side++;
+				map = ft_map_create(side);
+			}
+			map = ft_fill(map, cor[0], cor[1], start->tet,start->bukva, side);
+	}
+     */
+    while (!ft_solve1(map, start, side, -1, 0))
+    {
+        ft_clear_array(map, side);
+        map = ft_map_create(++side);
+    }
+    //ft_print_map(map, side);
     return (0);
 }

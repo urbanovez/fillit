@@ -48,16 +48,15 @@ int   **first_check (int fd)
 	int 	am;//количество фигур
 	int **base1;
 
-	if (fd < 0 || fd > 10240)
+	if (fd < 0)
 		return(NULL);
 	ft_bzero(buff, sizeof(char) * 548);
 	if ((sam = read(fd, buff, 546)) < 21)
 	    return (NULL);
-	buff[sam] = '\0';
 	buff[sam] = '\n';//что из этого оставить?
 	am = ft_firstcheck(buff, sam);
 	if (am == -1)
-		return(NULL);
+        return(NULL);
 	base1 = last_check(am, buff);
 	return(base1);
 }

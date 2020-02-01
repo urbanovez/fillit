@@ -39,5 +39,12 @@ int   **first_check (int fd);
 int **last_check(int m, char *k);
 t_tetris		*tetris_new(int tet, char bukva, t_tetris *prev);
 int ft_body(int **base);
-
+char **ft_solve(char **map, t_tetris *start, int side, int x, int y);
+int *ft_find_cord(char **map, int side,int m, int n);
+char **ft_map_create(int side);
+char **ft_fill(char **map, int x, int y, int num, char value, int side);
+void	ft_clear_array(char **arr, int side);
+void ft_print_map(char **map, int side);
+int ft_solve1(char **map, t_tetris *start, int side, int x, int y);
+void	ft_clear_base(int **arr, int side);
 #endif

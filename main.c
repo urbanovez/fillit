@@ -27,10 +27,9 @@ int 	main(int argc, char ** argv)
 {
     int i;
     int **base;
-    argv += 0;
-    if (argc == 1)
+    if (argc == 2)
     {
-        int fd = open("16.fillit", O_RDONLY);
+        int fd = open(argv[1], O_RDONLY);
         base = first_check(fd);
         if (base == NULL)// пока не разобрался с base
         	return(-1);
