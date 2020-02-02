@@ -64,23 +64,23 @@ char **ft_fill(char **map, int x, int y, int num, char value, int side)  //за�
 		i +=2;
 		j +=2;
 	}
-    map[y][x] = value;
 	i = 0;
-	while (i <=4)
+	if ((map[y + (f[num][1])][x + (f[num][0])] == '.') && (map[y + (f[num][3])][x + (f[num][2])] == '.') && (map[y + (f[num][5])][x + (f[num][4])] == '.'))
 	{
-		if (map[y + (f[num][i + 1])][x + (f[num][i])] == '.')
-		{
-			map[y + (f[num][i + 1])][x + (f[num][i])] = value;
-			i += 2;
-		}
-		else
-			return (NULL);
+        map[y][x] = value;
+        while (i <= 4)
+        {
+            map[y + (f[num][i + 1])][x + (f[num][i])] = value;
+            i += 2;
+        }
+    }
+	else
+	    return (NULL);
 /*	if (map[y - 1 - (f[num][3])][x - 1 - (f[num][2])] == '.')
     	map[y - 1 - (f[num][3])][x - 1 - (f[num][2])] = value;
 	if (map[y - 1 - (f[num][1])][x - 1 - (f[num][0])] == '.')
     	map[y - 1 - (f[num][5])][x - 1 - (f[num][2])] = value;
     	*/
-	}
 	return (map);
 }
 
@@ -119,18 +119,19 @@ int *ft_find_cord(char **map, int side,int m, int n)
 	int j;
 	int k;
 	int *cor;
+	int l;
+	int x;
+	int y;
 
+	x = m;
+	y = n;
 	j = m + n;
 	m = m + 1;
 	cor = (int *)malloc(sizeof(int) * (2));
-	if (m == -1)//для первого запуска
-    {
-	    cor[0] = 0;
-	    cor[1] = 0;
-	    return(cor);
-    }
 	while (j < side)
 	{
+	    x = 0;
+	    y = 0;
 		k = m;//мы пропускаем предыдущую точку и идем дальше
 		m = 0;
 		while(k <= j)
@@ -145,6 +146,31 @@ int *ft_find_cord(char **map, int side,int m, int n)
 		}
 		j++;
 	}
+    l = 0;
+	while (j <= (2 * side - 2))
+	{
+        l++;
+        k = l;
+	    if (x != 0 && y != 0)
+	    {
+	        j = x + y;
+	        l = j - (side -1);
+	        k = y + 1;
+	        x = 0;
+	        y = 0;
+	    }
+	    while ((j - k) >= l)
+        {
+	        if (map[k][j - k] == '.')
+            {
+	            cor[1] = (k);
+                cor[0] = (j - k);
+                return (cor);
+            }
+            k++;
+        }
+	    j++;
+    }
 	return (NULL);
 }
 

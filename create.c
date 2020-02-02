@@ -50,13 +50,13 @@ int ft_solve1(char **map, t_tetris *start, int side, int x, int y)
     t_tetris *tim;
     char **map2;
 
-    if (start-> next == NULL)//дошли до конца структуры
+    if (start == NULL)//дошли до конца структуры
     {
         ft_print_map(map, side);
         return (1);
     }
     cor = (int *)malloc(sizeof(int) * (2));
-    while(start->next != NULL)
+    while(start)
     {
         tim = start->next;
         cor = ft_find_cord(map, side, x, y);
@@ -71,6 +71,8 @@ int ft_solve1(char **map, t_tetris *start, int side, int x, int y)
         if (ft_solve1(map2, tim, side, cor[0], cor[1]) == 1)
             return(1);
         map = ft_fill(map, cor[0], cor[1], tim->tet, '.', side);
+        //free(cor[0]);
+       // free(cor[1]);
     }
     return(0);
 }
