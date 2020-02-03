@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fillit"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ttawna/CLionProjects/fillit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ttawna/CLionProjects/fillit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ttawna/CLionProjects/fillit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fillit">
+				<Option output="/Users/ttawna/CLionProjects/fillit/cmake-build-debug/fillit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ttawna/CLionProjects/fillit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ttawna/CLionProjects/fillit/libft"/>
+					<Add directory="/Users/ttawna/CLionProjects/fillit/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 fillit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fillit/fast">
+				<Option output="/Users/ttawna/CLionProjects/fillit/cmake-build-debug/fillit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ttawna/CLionProjects/fillit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ttawna/CLionProjects/fillit/libft"/>
+					<Add directory="/Users/ttawna/CLionProjects/fillit/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 fillit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ttawna/CLionProjects/fillit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/create.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/fillit.h">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/first_check.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_bzero.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_memalloc.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_memcpy.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_memdel.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_putchar_fd.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_putendl.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_putstr_fd.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_strdel.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_strdup.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_strlen.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_strsub.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_strsub_free.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/main.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/part_of_Nina.c">
+			<Option target="fillit"/>
+		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
