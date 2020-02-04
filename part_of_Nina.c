@@ -84,11 +84,34 @@ char **ft_fill(char **map, int x, int y, int num, char value, int side)  //за�
 	return (map);
 }
 
+char **ft_dot_filling(char **map, int x, int y, int num, char value, int side)  //заполняет ячейку с заданными координатами заданным символом
+{//num это номер фигуры в базе f
+    int i;
+    int j;
+
+    i = 0;
+    j = 1;
+    while (i < 6)//проверка
+    {
+        if ((f[num][i] + x) >= side || (f[num][j] + y) >= side || (f[num][i] + x) < 0 || (f[num][j] + y) < 0)
+            return (NULL);
+        i +=2;
+        j +=2;
+    }
+    i = 0;
+    map[y][x] = value;
+    while (i <= 4)
+    {
+        map[y + (f[num][i + 1])][x + (f[num][i])] = value;
+        i += 2;
+    }
+    return (map);
+}
 /*
  * функция, которая находит свободную координату, нахуя я ее пишу, я знаю, но в АлГоРиТмЕ Нины она есть
  */
 
-int *ft_find(char **map, int side)
+/*int *ft_find(char **map, int side)
 {
 	int j;
 	int k;
@@ -112,9 +135,34 @@ int *ft_find(char **map, int side)
 		j++;
 	}
 	return (NULL);
-}
-
+}*/
 int *ft_find_cord(char **map, int side,int m, int n)
+{
+    int *cor;
+
+    cor = (int *)malloc(sizeof(int) * (2));
+    m++;
+    while(m < side && n < side)
+    {
+        if (m == (side - 1) && n == (side - 1))
+            return (NULL);
+        while (m < side - 1)
+        {
+
+            if ((map[n][m]) == '.')
+            {
+                cor[1] = (n);
+                cor[0] = (m);
+                return (cor);
+            }
+            m++;
+        }
+        n++;
+        m = 0;
+    }
+    return(NULL);
+}
+/*int *ft_find_cord(char **map, int side,int m, int n)
 {
 	int j;
 	int k;
@@ -172,7 +220,7 @@ int *ft_find_cord(char **map, int side,int m, int n)
 	    j++;
     }
 	return (NULL);
-}
+}*/
 
 int ft_square_root(int n)
 {

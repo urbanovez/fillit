@@ -231,6 +231,33 @@ libft/ft_memalloc.c.s:
 	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_memalloc.c.s
 .PHONY : libft/ft_memalloc.c.s
 
+libft/ft_memcpy.o: libft/ft_memcpy.c.o
+
+.PHONY : libft/ft_memcpy.o
+
+# target to build an object file
+libft/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_memcpy.c.o
+.PHONY : libft/ft_memcpy.c.o
+
+libft/ft_memcpy.i: libft/ft_memcpy.c.i
+
+.PHONY : libft/ft_memcpy.i
+
+# target to preprocess a source file
+libft/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_memcpy.c.i
+.PHONY : libft/ft_memcpy.c.i
+
+libft/ft_memcpy.s: libft/ft_memcpy.c.s
+
+.PHONY : libft/ft_memcpy.s
+
+# target to generate assembly for a file
+libft/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_memcpy.c.s
+.PHONY : libft/ft_memcpy.c.s
+
 libft/ft_memdel.o: libft/ft_memdel.c.o
 
 .PHONY : libft/ft_memdel.o
@@ -549,6 +576,9 @@ help:
 	@echo "... libft/ft_memalloc.o"
 	@echo "... libft/ft_memalloc.i"
 	@echo "... libft/ft_memalloc.s"
+	@echo "... libft/ft_memcpy.o"
+	@echo "... libft/ft_memcpy.i"
+	@echo "... libft/ft_memcpy.s"
 	@echo "... libft/ft_memdel.o"
 	@echo "... libft/ft_memdel.i"
 	@echo "... libft/ft_memdel.s"

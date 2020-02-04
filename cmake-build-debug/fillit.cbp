@@ -101,6 +101,9 @@
 		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_memalloc.c">
 			<Option target="fillit"/>
 		</Unit>
+		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_memcpy.c">
+			<Option target="fillit"/>
+		</Unit>
 		<Unit filename="/Users/ttawna/CLionProjects/fillit/libft/ft_memdel.c">
 			<Option target="fillit"/>
 		</Unit>

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/ttawna/CLionProjects/fillit/create.c
+fillit.h
+/Users/ttawna/CLionProjects/fillit/fillit.h
+
 /Users/ttawna/CLionProjects/fillit/fillit.h
 fcntl.h
 /Users/ttawna/CLionProjects/fillit/fcntl.h
@@ -20,12 +24,26 @@ stdlib.h
 libft/libft.h
 /Users/ttawna/CLionProjects/fillit/libft/libft.h
 
+/Users/ttawna/CLionProjects/fillit/first_check.c
+libft/libft.h
+/Users/ttawna/CLionProjects/fillit/libft/libft.h
+fillit.h
+/Users/ttawna/CLionProjects/fillit/fillit.h
+
 /Users/ttawna/CLionProjects/fillit/libft/libft.h
 string.h
 -
 stdlib.h
 -
 unistd.h
+-
+
+/Users/ttawna/CLionProjects/fillit/main.c
+stdio.h
+-
+fillit.h
+/Users/ttawna/CLionProjects/fillit/fillit.h
+fcntl.h
 -
 
 /Users/ttawna/CLionProjects/fillit/part_of_Nina.c

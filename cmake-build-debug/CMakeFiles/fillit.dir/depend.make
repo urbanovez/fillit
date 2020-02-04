@@ -15,6 +15,9 @@ CMakeFiles/fillit.dir/libft/ft_bzero.c.o: ../libft/libft.h
 CMakeFiles/fillit.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
 CMakeFiles/fillit.dir/libft/ft_memalloc.c.o: ../libft/libft.h
 
+CMakeFiles/fillit.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
+CMakeFiles/fillit.dir/libft/ft_memcpy.c.o: ../libft/libft.h
+
 CMakeFiles/fillit.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
 CMakeFiles/fillit.dir/libft/ft_memdel.c.o: ../libft/libft.h
 

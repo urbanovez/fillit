@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fillit.dir/first_check.c.o"
   "CMakeFiles/fillit.dir/libft/ft_bzero.c.o"
   "CMakeFiles/fillit.dir/libft/ft_memalloc.c.o"
+  "CMakeFiles/fillit.dir/libft/ft_memcpy.c.o"
   "CMakeFiles/fillit.dir/libft/ft_memdel.c.o"
   "CMakeFiles/fillit.dir/libft/ft_putchar_fd.c.o"
   "CMakeFiles/fillit.dir/libft/ft_putendl.c.o"
