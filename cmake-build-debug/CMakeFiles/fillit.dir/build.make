@@ -57,31 +57,31 @@ include CMakeFiles/fillit.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fillit.dir/flags.make
 
-CMakeFiles/fillit.dir/main.c.o: CMakeFiles/fillit.dir/flags.make
-CMakeFiles/fillit.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fillit.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/main.c.o   -c /Users/ttawna/CLionProjects/fillit/main.c
+CMakeFiles/fillit.dir/src/main.c.o: CMakeFiles/fillit.dir/flags.make
+CMakeFiles/fillit.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fillit.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/src/main.c.o   -c /Users/ttawna/CLionProjects/fillit/src/main.c
 
-CMakeFiles/fillit.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/main.c > CMakeFiles/fillit.dir/main.c.i
+CMakeFiles/fillit.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/src/main.c > CMakeFiles/fillit.dir/src/main.c.i
 
-CMakeFiles/fillit.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/main.c -o CMakeFiles/fillit.dir/main.c.s
+CMakeFiles/fillit.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/src/main.c -o CMakeFiles/fillit.dir/src/main.c.s
 
-CMakeFiles/fillit.dir/first_check.c.o: CMakeFiles/fillit.dir/flags.make
-CMakeFiles/fillit.dir/first_check.c.o: ../first_check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fillit.dir/first_check.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/first_check.c.o   -c /Users/ttawna/CLionProjects/fillit/first_check.c
+CMakeFiles/fillit.dir/src/first_check.c.o: CMakeFiles/fillit.dir/flags.make
+CMakeFiles/fillit.dir/src/first_check.c.o: ../src/first_check.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fillit.dir/src/first_check.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/src/first_check.c.o   -c /Users/ttawna/CLionProjects/fillit/src/first_check.c
 
-CMakeFiles/fillit.dir/first_check.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/first_check.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/first_check.c > CMakeFiles/fillit.dir/first_check.c.i
+CMakeFiles/fillit.dir/src/first_check.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/src/first_check.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/src/first_check.c > CMakeFiles/fillit.dir/src/first_check.c.i
 
-CMakeFiles/fillit.dir/first_check.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/first_check.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/first_check.c -o CMakeFiles/fillit.dir/first_check.c.s
+CMakeFiles/fillit.dir/src/first_check.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/src/first_check.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/src/first_check.c -o CMakeFiles/fillit.dir/src/first_check.c.s
 
 CMakeFiles/fillit.dir/libft/ft_memcpy.c.o: CMakeFiles/fillit.dir/flags.make
 CMakeFiles/fillit.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
@@ -187,22 +187,9 @@ CMakeFiles/fillit.dir/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/libft/ft_strsub.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/libft/ft_strsub.c -o CMakeFiles/fillit.dir/libft/ft_strsub.c.s
 
-CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o: CMakeFiles/fillit.dir/flags.make
-CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o: ../libft/ft_strsub_free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o   -c /Users/ttawna/CLionProjects/fillit/libft/ft_strsub_free.c
-
-CMakeFiles/fillit.dir/libft/ft_strsub_free.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/libft/ft_strsub_free.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/libft/ft_strsub_free.c > CMakeFiles/fillit.dir/libft/ft_strsub_free.c.i
-
-CMakeFiles/fillit.dir/libft/ft_strsub_free.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/libft/ft_strsub_free.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/libft/ft_strsub_free.c -o CMakeFiles/fillit.dir/libft/ft_strsub_free.c.s
-
 CMakeFiles/fillit.dir/libft/ft_strdel.c.o: CMakeFiles/fillit.dir/flags.make
 CMakeFiles/fillit.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fillit.dir/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fillit.dir/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/libft/ft_strdel.c.o   -c /Users/ttawna/CLionProjects/fillit/libft/ft_strdel.c
 
 CMakeFiles/fillit.dir/libft/ft_strdel.c.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/fillit.dir/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/fillit.dir/libft/ft_memdel.c.o: CMakeFiles/fillit.dir/flags.make
 CMakeFiles/fillit.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fillit.dir/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fillit.dir/libft/ft_memdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/libft/ft_memdel.c.o   -c /Users/ttawna/CLionProjects/fillit/libft/ft_memdel.c
 
 CMakeFiles/fillit.dir/libft/ft_memdel.c.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/fillit.dir/libft/ft_memdel.c.s: cmake_force
 
 CMakeFiles/fillit.dir/libft/ft_bzero.c.o: CMakeFiles/fillit.dir/flags.make
 CMakeFiles/fillit.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fillit.dir/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fillit.dir/libft/ft_bzero.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/libft/ft_bzero.c.o   -c /Users/ttawna/CLionProjects/fillit/libft/ft_bzero.c
 
 CMakeFiles/fillit.dir/libft/ft_bzero.c.i: cmake_force
@@ -239,36 +226,36 @@ CMakeFiles/fillit.dir/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/libft/ft_bzero.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/libft/ft_bzero.c -o CMakeFiles/fillit.dir/libft/ft_bzero.c.s
 
-CMakeFiles/fillit.dir/create.c.o: CMakeFiles/fillit.dir/flags.make
-CMakeFiles/fillit.dir/create.c.o: ../create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fillit.dir/create.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/create.c.o   -c /Users/ttawna/CLionProjects/fillit/create.c
+CMakeFiles/fillit.dir/src/create.c.o: CMakeFiles/fillit.dir/flags.make
+CMakeFiles/fillit.dir/src/create.c.o: ../src/create.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fillit.dir/src/create.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/src/create.c.o   -c /Users/ttawna/CLionProjects/fillit/src/create.c
 
-CMakeFiles/fillit.dir/create.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/create.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/create.c > CMakeFiles/fillit.dir/create.c.i
+CMakeFiles/fillit.dir/src/create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/src/create.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/src/create.c > CMakeFiles/fillit.dir/src/create.c.i
 
-CMakeFiles/fillit.dir/create.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/create.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/create.c -o CMakeFiles/fillit.dir/create.c.s
+CMakeFiles/fillit.dir/src/create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/src/create.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/src/create.c -o CMakeFiles/fillit.dir/src/create.c.s
 
-CMakeFiles/fillit.dir/part_of_Nina.c.o: CMakeFiles/fillit.dir/flags.make
-CMakeFiles/fillit.dir/part_of_Nina.c.o: ../part_of_Nina.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fillit.dir/part_of_Nina.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/part_of_Nina.c.o   -c /Users/ttawna/CLionProjects/fillit/part_of_Nina.c
+CMakeFiles/fillit.dir/src/part_of_Nina.c.o: CMakeFiles/fillit.dir/flags.make
+CMakeFiles/fillit.dir/src/part_of_Nina.c.o: ../src/part_of_Nina.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fillit.dir/src/part_of_Nina.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit.dir/src/part_of_Nina.c.o   -c /Users/ttawna/CLionProjects/fillit/src/part_of_Nina.c
 
-CMakeFiles/fillit.dir/part_of_Nina.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/part_of_Nina.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/part_of_Nina.c > CMakeFiles/fillit.dir/part_of_Nina.c.i
+CMakeFiles/fillit.dir/src/part_of_Nina.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit.dir/src/part_of_Nina.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ttawna/CLionProjects/fillit/src/part_of_Nina.c > CMakeFiles/fillit.dir/src/part_of_Nina.c.i
 
-CMakeFiles/fillit.dir/part_of_Nina.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/part_of_Nina.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/part_of_Nina.c -o CMakeFiles/fillit.dir/part_of_Nina.c.s
+CMakeFiles/fillit.dir/src/part_of_Nina.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit.dir/src/part_of_Nina.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ttawna/CLionProjects/fillit/src/part_of_Nina.c -o CMakeFiles/fillit.dir/src/part_of_Nina.c.s
 
 # Object files for target fillit
 fillit_OBJECTS = \
-"CMakeFiles/fillit.dir/main.c.o" \
-"CMakeFiles/fillit.dir/first_check.c.o" \
+"CMakeFiles/fillit.dir/src/main.c.o" \
+"CMakeFiles/fillit.dir/src/first_check.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_memcpy.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_putchar_fd.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_putstr_fd.c.o" \
@@ -277,18 +264,17 @@ fillit_OBJECTS = \
 "CMakeFiles/fillit.dir/libft/ft_strdup.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_strlen.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_strsub.c.o" \
-"CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_strdel.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_memdel.c.o" \
 "CMakeFiles/fillit.dir/libft/ft_bzero.c.o" \
-"CMakeFiles/fillit.dir/create.c.o" \
-"CMakeFiles/fillit.dir/part_of_Nina.c.o"
+"CMakeFiles/fillit.dir/src/create.c.o" \
+"CMakeFiles/fillit.dir/src/part_of_Nina.c.o"
 
 # External object files for target fillit
 fillit_EXTERNAL_OBJECTS =
 
-fillit: CMakeFiles/fillit.dir/main.c.o
-fillit: CMakeFiles/fillit.dir/first_check.c.o
+fillit: CMakeFiles/fillit.dir/src/main.c.o
+fillit: CMakeFiles/fillit.dir/src/first_check.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_memcpy.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_putchar_fd.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_putstr_fd.c.o
@@ -297,15 +283,14 @@ fillit: CMakeFiles/fillit.dir/libft/ft_putendl.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_strdup.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_strlen.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_strsub.c.o
-fillit: CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_strdel.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_memdel.c.o
 fillit: CMakeFiles/fillit.dir/libft/ft_bzero.c.o
-fillit: CMakeFiles/fillit.dir/create.c.o
-fillit: CMakeFiles/fillit.dir/part_of_Nina.c.o
+fillit: CMakeFiles/fillit.dir/src/create.c.o
+fillit: CMakeFiles/fillit.dir/src/part_of_Nina.c.o
 fillit: CMakeFiles/fillit.dir/build.make
 fillit: CMakeFiles/fillit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable fillit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable fillit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fillit.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu90
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/ttawna/CLionProjects/fillit/libft -I/Users/ttawna/CLionProjects/fillit/. 
+C_INCLUDES = -I/Users/ttawna/CLionProjects/fillit/libft -I/Users/ttawna/CLionProjects/fillit/src 
 

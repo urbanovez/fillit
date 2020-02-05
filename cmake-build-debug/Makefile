@@ -123,60 +123,6 @@ fillit/fast:
 	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/build
 .PHONY : fillit/fast
 
-create.o: create.c.o
-
-.PHONY : create.o
-
-# target to build an object file
-create.c.o:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/create.c.o
-.PHONY : create.c.o
-
-create.i: create.c.i
-
-.PHONY : create.i
-
-# target to preprocess a source file
-create.c.i:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/create.c.i
-.PHONY : create.c.i
-
-create.s: create.c.s
-
-.PHONY : create.s
-
-# target to generate assembly for a file
-create.c.s:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/create.c.s
-.PHONY : create.c.s
-
-first_check.o: first_check.c.o
-
-.PHONY : first_check.o
-
-# target to build an object file
-first_check.c.o:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/first_check.c.o
-.PHONY : first_check.c.o
-
-first_check.i: first_check.c.i
-
-.PHONY : first_check.i
-
-# target to preprocess a source file
-first_check.c.i:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/first_check.c.i
-.PHONY : first_check.c.i
-
-first_check.s: first_check.c.s
-
-.PHONY : first_check.s
-
-# target to generate assembly for a file
-first_check.c.s:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/first_check.c.s
-.PHONY : first_check.c.s
-
 libft/ft_bzero.o: libft/ft_bzero.c.o
 
 .PHONY : libft/ft_bzero.o
@@ -474,86 +420,113 @@ libft/ft_strsub.c.s:
 	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_strsub.c.s
 .PHONY : libft/ft_strsub.c.s
 
-libft/ft_strsub_free.o: libft/ft_strsub_free.c.o
+src/create.o: src/create.c.o
 
-.PHONY : libft/ft_strsub_free.o
-
-# target to build an object file
-libft/ft_strsub_free.c.o:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o
-.PHONY : libft/ft_strsub_free.c.o
-
-libft/ft_strsub_free.i: libft/ft_strsub_free.c.i
-
-.PHONY : libft/ft_strsub_free.i
-
-# target to preprocess a source file
-libft/ft_strsub_free.c.i:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_strsub_free.c.i
-.PHONY : libft/ft_strsub_free.c.i
-
-libft/ft_strsub_free.s: libft/ft_strsub_free.c.s
-
-.PHONY : libft/ft_strsub_free.s
-
-# target to generate assembly for a file
-libft/ft_strsub_free.c.s:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/libft/ft_strsub_free.c.s
-.PHONY : libft/ft_strsub_free.c.s
-
-main.o: main.c.o
-
-.PHONY : main.o
+.PHONY : src/create.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/main.c.o
-.PHONY : main.c.o
+src/create.c.o:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/create.c.o
+.PHONY : src/create.c.o
 
-main.i: main.c.i
+src/create.i: src/create.c.i
 
-.PHONY : main.i
+.PHONY : src/create.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/main.c.i
-.PHONY : main.c.i
+src/create.c.i:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/create.c.i
+.PHONY : src/create.c.i
 
-main.s: main.c.s
+src/create.s: src/create.c.s
 
-.PHONY : main.s
+.PHONY : src/create.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/main.c.s
-.PHONY : main.c.s
+src/create.c.s:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/create.c.s
+.PHONY : src/create.c.s
 
-part_of_Nina.o: part_of_Nina.c.o
+src/first_check.o: src/first_check.c.o
 
-.PHONY : part_of_Nina.o
+.PHONY : src/first_check.o
 
 # target to build an object file
-part_of_Nina.c.o:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/part_of_Nina.c.o
-.PHONY : part_of_Nina.c.o
+src/first_check.c.o:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/first_check.c.o
+.PHONY : src/first_check.c.o
 
-part_of_Nina.i: part_of_Nina.c.i
+src/first_check.i: src/first_check.c.i
 
-.PHONY : part_of_Nina.i
+.PHONY : src/first_check.i
 
 # target to preprocess a source file
-part_of_Nina.c.i:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/part_of_Nina.c.i
-.PHONY : part_of_Nina.c.i
+src/first_check.c.i:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/first_check.c.i
+.PHONY : src/first_check.c.i
 
-part_of_Nina.s: part_of_Nina.c.s
+src/first_check.s: src/first_check.c.s
 
-.PHONY : part_of_Nina.s
+.PHONY : src/first_check.s
 
 # target to generate assembly for a file
-part_of_Nina.c.s:
-	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/part_of_Nina.c.s
-.PHONY : part_of_Nina.c.s
+src/first_check.c.s:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/first_check.c.s
+.PHONY : src/first_check.c.s
+
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/part_of_Nina.o: src/part_of_Nina.c.o
+
+.PHONY : src/part_of_Nina.o
+
+# target to build an object file
+src/part_of_Nina.c.o:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/part_of_Nina.c.o
+.PHONY : src/part_of_Nina.c.o
+
+src/part_of_Nina.i: src/part_of_Nina.c.i
+
+.PHONY : src/part_of_Nina.i
+
+# target to preprocess a source file
+src/part_of_Nina.c.i:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/part_of_Nina.c.i
+.PHONY : src/part_of_Nina.c.i
+
+src/part_of_Nina.s: src/part_of_Nina.c.s
+
+.PHONY : src/part_of_Nina.s
+
+# target to generate assembly for a file
+src/part_of_Nina.c.s:
+	$(MAKE) -f CMakeFiles/fillit.dir/build.make CMakeFiles/fillit.dir/src/part_of_Nina.c.s
+.PHONY : src/part_of_Nina.c.s
 
 # Help Target
 help:
@@ -564,12 +537,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fillit"
-	@echo "... create.o"
-	@echo "... create.i"
-	@echo "... create.s"
-	@echo "... first_check.o"
-	@echo "... first_check.i"
-	@echo "... first_check.s"
 	@echo "... libft/ft_bzero.o"
 	@echo "... libft/ft_bzero.i"
 	@echo "... libft/ft_bzero.s"
@@ -603,15 +570,18 @@ help:
 	@echo "... libft/ft_strsub.o"
 	@echo "... libft/ft_strsub.i"
 	@echo "... libft/ft_strsub.s"
-	@echo "... libft/ft_strsub_free.o"
-	@echo "... libft/ft_strsub_free.i"
-	@echo "... libft/ft_strsub_free.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... part_of_Nina.o"
-	@echo "... part_of_Nina.i"
-	@echo "... part_of_Nina.s"
+	@echo "... src/create.o"
+	@echo "... src/create.i"
+	@echo "... src/create.s"
+	@echo "... src/first_check.o"
+	@echo "... src/first_check.i"
+	@echo "... src/first_check.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/part_of_Nina.o"
+	@echo "... src/part_of_Nina.i"
+	@echo "... src/part_of_Nina.s"
 .PHONY : help
 
 

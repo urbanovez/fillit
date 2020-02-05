@@ -4,8 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/ttawna/CLionProjects/fillit/create.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/create.c.o"
-  "/Users/ttawna/CLionProjects/fillit/first_check.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/first_check.c.o"
   "/Users/ttawna/CLionProjects/fillit/libft/ft_bzero.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_bzero.c.o"
   "/Users/ttawna/CLionProjects/fillit/libft/ft_memalloc.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_memalloc.c.o"
   "/Users/ttawna/CLionProjects/fillit/libft/ft_memcpy.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_memcpy.c.o"
@@ -17,16 +15,17 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ttawna/CLionProjects/fillit/libft/ft_strdup.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_strdup.c.o"
   "/Users/ttawna/CLionProjects/fillit/libft/ft_strlen.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_strlen.c.o"
   "/Users/ttawna/CLionProjects/fillit/libft/ft_strsub.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_strsub.c.o"
-  "/Users/ttawna/CLionProjects/fillit/libft/ft_strsub_free.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/libft/ft_strsub_free.c.o"
-  "/Users/ttawna/CLionProjects/fillit/main.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/main.c.o"
-  "/Users/ttawna/CLionProjects/fillit/part_of_Nina.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/part_of_Nina.c.o"
+  "/Users/ttawna/CLionProjects/fillit/src/create.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/src/create.c.o"
+  "/Users/ttawna/CLionProjects/fillit/src/first_check.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/src/first_check.c.o"
+  "/Users/ttawna/CLionProjects/fillit/src/main.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/src/main.c.o"
+  "/Users/ttawna/CLionProjects/fillit/src/part_of_Nina.c" "/Users/ttawna/CLionProjects/fillit/cmake-build-debug/CMakeFiles/fillit.dir/src/part_of_Nina.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../libft"
-  "../."
+  "../src"
   )
 
 # Targets to which this target links.

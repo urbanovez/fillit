@@ -6,29 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/ttawna/CLionProjects/fillit/create.c
-fillit.h
-/Users/ttawna/CLionProjects/fillit/fillit.h
-
-/Users/ttawna/CLionProjects/fillit/fillit.h
+/Users/ttawna/CLionProjects/fillit/includes/fillit.h
 fcntl.h
-/Users/ttawna/CLionProjects/fillit/fcntl.h
+/Users/ttawna/CLionProjects/fillit/includes/fcntl.h
 sys/types.h
-/Users/ttawna/CLionProjects/fillit/sys/types.h
+/Users/ttawna/CLionProjects/fillit/includes/sys/types.h
 sys/uio.h
-/Users/ttawna/CLionProjects/fillit/sys/uio.h
+/Users/ttawna/CLionProjects/fillit/includes/sys/uio.h
 unistd.h
-/Users/ttawna/CLionProjects/fillit/unistd.h
+/Users/ttawna/CLionProjects/fillit/includes/unistd.h
 stdlib.h
 -
-libft/libft.h
+../libft/libft.h
 /Users/ttawna/CLionProjects/fillit/libft/libft.h
-
-/Users/ttawna/CLionProjects/fillit/first_check.c
-libft/libft.h
-/Users/ttawna/CLionProjects/fillit/libft/libft.h
-fillit.h
-/Users/ttawna/CLionProjects/fillit/fillit.h
 
 /Users/ttawna/CLionProjects/fillit/libft/libft.h
 string.h
@@ -38,19 +28,15 @@ stdlib.h
 unistd.h
 -
 
-/Users/ttawna/CLionProjects/fillit/main.c
-stdio.h
--
-fillit.h
-/Users/ttawna/CLionProjects/fillit/fillit.h
-fcntl.h
--
+/Users/ttawna/CLionProjects/fillit/src/first_check.c
+../includes/fillit.h
+/Users/ttawna/CLionProjects/fillit/includes/fillit.h
 
-/Users/ttawna/CLionProjects/fillit/part_of_Nina.c
-libft/libft.h
-/Users/ttawna/CLionProjects/fillit/libft/libft.h
-fillit.h
-/Users/ttawna/CLionProjects/fillit/fillit.h
-stdlib.h
--
+/Users/ttawna/CLionProjects/fillit/src/main.c
+../includes/fillit.h
+/Users/ttawna/CLionProjects/fillit/includes/fillit.h
+
+/Users/ttawna/CLionProjects/fillit/src/part_of_Nina.c
+../includes/fillit.h
+/Users/ttawna/CLionProjects/fillit/includes/fillit.h
 
