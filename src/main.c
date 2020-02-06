@@ -29,6 +29,8 @@ int	main(int argc, char **argv)
 	if (argc == 2)
 	{
 		fd = open(argv[1], O_RDONLY);
+        if (fd < 0)
+            ft_putstr_fd("error\n", 1);
 		base = first_check(fd);
 		if (base == NULL)
 		{

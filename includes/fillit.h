@@ -41,4 +41,6 @@ void ft_print_map(char **map, int side);
 int ft_solve1(char **map, t_tetris *start, int side, int x, int y);
 void	ft_clear_base(int **arr, int side);
 char **ft_dot_filling(char **map, int x, int y, int num, char value, int side);
+int	**ft_clear_base1(int **arr);
+int	**ft_clear_base2(int **arr, int m);
 #endif

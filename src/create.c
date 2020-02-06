@@ -25,21 +25,6 @@ t_tetris		*tetris_new(int tet, char bukva, t_tetris *prev)
     return (new);
 }
 
-/*void    ft_clear_cor(int *cor)
-{
-    int *cpy;
-    int i;
-
-    i = 0;
-    cpy = cor;
-    while (i < 3)
-    {
-        free(*cpy++);
-        i++;
-    }
-    free(cor);
-}*/
-
 int ft_solve1(char **map, t_tetris *start, int side, int x, int y)
 {
     int *cor;
@@ -74,7 +59,7 @@ int ft_solve1(char **map, t_tetris *start, int side, int x, int y)
             {
                 free(cor);
                 free(cor1);
-                return (0);
+                return (0);//заменить обе штуки на break и написать free cor внизу
             }
             map2 = ft_fill(map, cor[0], cor[1], start->tet, start->bukva, side);
         }
@@ -121,3 +106,38 @@ void	ft_clear_base(int **arr, int side)
     }
     free(arr);
 }
+
+int	**ft_clear_base1(int **arr)
+{
+    int **cpy;
+    int i;
+
+    i = 0;
+    cpy = arr;
+    while (arr[i][0] != -1)
+    {
+        free(*cpy++);
+        i++;
+    }
+    free(*cpy);
+    free(arr);
+    return (NULL);
+}
+
+int	**ft_clear_base2(int **arr, int m)
+{
+    int **cpy;
+    int i;
+
+    i = 0;
+    cpy = arr;
+    while (i <= m)
+    {
+        free(*cpy++);
+        i++;
+    }
+    free(*cpy);
+    free(arr);
+    return (NULL);
+}
+
